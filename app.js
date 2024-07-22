@@ -18,7 +18,6 @@ const newgame=()=>{
     msg.style.backgroundColor = "";
     endgame=false;
     winner.classList.add("hide");
-    ch();
 }
 const Winner=(a,b)=>{
     if(a===3){
