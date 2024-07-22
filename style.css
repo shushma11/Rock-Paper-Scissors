@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    background-color: #081b31;
+    color: white;
+    font-size: 3rem;
+    padding: 10px 5px 10px 5px;
+}
+.choice{
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.choice:hover {
+    cursor: pointer;
+    background-color: #081b31;
+}
+img{
+    height: 165px;
+    width: 165px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+.score{
+    font-size: 2rem;
+}
+#urscore,#compscore{
+    font-size: 4rem;
+}
+.msg-container{
+    margin-top: 5rem;
+    text-align: center;
+}
+#msg{
+    text-align: center;
+    display: inline;
+    background-color: #081b31;
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+.winner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.winner{
+    background-color: #081b31;
+    color: goldenrod;
+    height: 100vh;
+    font-size: 3rem;
+    /* text-align: center; */
+}
+.hide{
+    display: none;
+}
+#ng{
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    border-radius: 11px;
+    height: 2rem;
+    width:8rem;
+    padding: 2px;   
+}
